@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
 import { carlos, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
@@ -47,7 +45,10 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               A fullstack developer. <br className="sm:block hidden" />
-              Empowering businesses through innovative and robust software solutions, I blend a background in civil engineering with full-stack development expertise. Committed to continuous learning, adaptability, and seamless collaboration, I bring a unique perspective to every project.
+              Empowering businesses through innovative and robust software solutions, 
+              I blend a background in civil engineering with full-stack development expertise. 
+              Committed to continuous learning, adaptability, and seamless collaboration, 
+              I bring a unique perspective to every project.
             </p>
           </div>
           <div
@@ -79,8 +80,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 

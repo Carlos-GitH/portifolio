@@ -21,13 +21,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src={logo} // your logo comes here
+            src={logo}
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
-
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
           <img
             src={logotext}
             alt="logo"
@@ -47,7 +44,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
         {/* mobile */}
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           <ul className="list-none sm:flex gap-2 mt-2 flex aligin-center">
