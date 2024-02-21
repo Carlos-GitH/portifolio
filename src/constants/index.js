@@ -151,7 +151,7 @@ const experiences = [
     company_name: 'CSU Digital',
     icon: csuDigital,
     iconBg: '#333333',
-    date: 'Dez 2014 - Feb 2025',
+    date: 'Dez 2014 - Feb 2015',
   },
   {
     title: 'Technical Suport',

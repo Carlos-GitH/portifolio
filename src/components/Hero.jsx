@@ -45,10 +45,10 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               A fullstack developer. <br className="sm:block hidden" />
-              Empowering businesses through innovative and robust software solutions, 
-              I blend a background in civil engineering with full-stack development expertise. 
-              Committed to continuous learning, adaptability, and seamless collaboration, 
-              I bring a unique perspective to every project.
+              Empowering businesses with innovative software solutions, 
+              I merge civil engineering insights with full-stack development expertise. 
+              Committed to continuous learning and seamless collaboration, 
+              my unique perspective enhances every project.
             </p>
           </div>
           <div

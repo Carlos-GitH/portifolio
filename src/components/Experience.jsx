@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = 'src/assets/resume/Carlos_Cavalcanti_Resume.pdf';
+                link.href = 'https://drive.google.com/file/d/1-mskgdXewFT_41_xntzKNwLObG8PdHqd/view?usp=sharing';
                 link.download = 'Carlos_Cavalcanti_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
