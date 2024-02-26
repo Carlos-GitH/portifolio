@@ -31,6 +31,7 @@ import {
   spotify,
   github_black,
   pineapple,
+  tasksStopwatch,
 } from '../assets';
 
 export const navLinks = [
@@ -206,8 +207,8 @@ const experiences = [
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'Flask-Blog',
+    id: 'cronometro-tarefas',
+    name: 'Tasks-Stopwatch',
     description: 'A simple blog built with Flask.',
     tags: [
       {
@@ -215,17 +216,17 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'TypeScript',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'SCSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: '',
-    repo: '',
-    demo: '',
+    image: tasksStopwatch,
+    repo: 'https://github.com/Carlos-GitH/tasks-stopwatch',
+    demo: 'https://carlos-gith.github.io/tasks-stopwatch/',
   },
 ];
 

@@ -50,6 +50,8 @@ import github_black from './icons/github_black.png';
 import linkedin from './icons/linkedin.png';
 import spotify from './icons/spotify.png';
 
+import tasksStopwatch from './projects/stopwatch.png';
+
 export {
   bwmap,
   nairobi,
@@ -96,4 +98,5 @@ export {
   spotify,
   github_black,
   carlos,
+  tasksStopwatch,
 };
