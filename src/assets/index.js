@@ -51,6 +51,7 @@ import linkedin from './icons/linkedin.png';
 import spotify from './icons/spotify.png';
 
 import tasksStopwatch from './projects/stopwatch.png';
+import laCasaDiCarlos from './projects/laCasaDiCarlos.png';
 
 export {
   bwmap,
@@ -99,4 +100,5 @@ export {
   github_black,
   carlos,
   tasksStopwatch,
+  laCasaDiCarlos,
 };

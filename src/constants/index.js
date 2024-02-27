@@ -32,6 +32,7 @@ import {
   github_black,
   pineapple,
   tasksStopwatch,
+  laCasaDiCarlos,
 } from '../assets';
 
 export const navLinks = [
@@ -207,9 +208,31 @@ const experiences = [
 
 const projects = [
   {
+    id: 'la-casa-di-carlos',
+    name: 'Ristorante La Casa Di Carlos',
+    description: 'A menu reactive page for a restaurant.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'SCSS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: laCasaDiCarlos,
+    repo: 'https://github.com/Carlos-GitH/la-casa-di-carlos',
+    demo: 'https://carlos-gith.github.io/la-casa-di-carlos/',
+  },
+  {
     id: 'cronometro-tarefas',
     name: 'Tasks-Stopwatch',
-    description: 'A simple blog built with Flask.',
+    description: 'A task stopwatch for better control of your time.',
     tags: [
       {
         name: 'react',

@@ -14,7 +14,7 @@ const Navbar = () => {
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          to="/portifolio"
           className="flex items-center gap-2"
           onClick={() => {
             setActive('');
