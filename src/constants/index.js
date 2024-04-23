@@ -33,6 +33,7 @@ import {
   pineapple,
   tasksStopwatch,
   laCasaDiCarlos,
+  fcxLabs,
 } from '../assets';
 
 export const navLinks = [
@@ -198,11 +199,18 @@ const experiences = [
     date: 'Apr 2023 - Dez 2023',
   },
   {
-    title: 'Junior Data Analist',
+    title: 'Data Analist',
     company_name: 'Home Center Ferreira Costa',
     icon: ferreiraCosta,
     iconBg: '#333333',
-    date: 'Dez 2023 - Current',
+    date: 'Dez 2023 - Apr 2024',
+  },
+  {
+    title: 'Data Engineer',
+    company_name: 'FCx Labs',
+    icon: fcxLabs,
+    iconBg: '#333333',
+    date: 'Apr 2024 - Current',
   },
 ];
 

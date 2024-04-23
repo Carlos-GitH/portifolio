@@ -44,6 +44,7 @@ import csuDigital from './company/csuDigital.png';
 import urban from './company/urban.png';
 import self from './company/self.png';
 import ferreiraCosta from './company/ferreiraCosta.png';
+import fcxLabs from './company/fcxLabs.png';
 
 import whatsapp from './icons/whatsapp.png';
 import github_black from './icons/github_black.png';
@@ -101,4 +102,5 @@ export {
   carlos,
   tasksStopwatch,
   laCasaDiCarlos,
+  fcxLabs,
 };
